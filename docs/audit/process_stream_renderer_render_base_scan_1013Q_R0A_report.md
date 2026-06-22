@@ -18,6 +18,8 @@ There are two important layers:
 
 The next implementation should copy R36 for preview polish, then mount the 1013Q process stream fixture into the existing shell/page behavior. It should not mutate the formal R36 chain in this round.
 
+Correction after review: `frontend/workbench/process_stream_renderer_preview_1013Q_R0.html` is only a temporary fixture viewer from R0. It is not the product route and must not be used as the R1 baseline.
+
 ## Evidence Read
 
 ### Persistent Render Shell
@@ -91,7 +93,7 @@ Files:
 - `docs/foundation/process_stream_renderer_contract_1013Q_R0.md`
 - `docs/foundation/process_stream_block_schema_1013Q_R0.json`
 - `fixtures/process_stream/*.json`
-- `frontend/workbench/process_stream_renderer_preview_1013Q_R0.html`
+- `frontend/workbench/process_stream_renderer_preview_1013Q_R0.html` review-only fixture viewer, not product baseline
 - `scripts/validate_process_stream_renderer_1013Q_R0.py`
 - `docs/audit_packages/process_stream_renderer_1013Q_R0.zip`
 
@@ -101,7 +103,7 @@ What it proves:
 - It creates four local fixtures: normal lesson design, missing material, source mismatch warning, and courseware seed preview.
 - Every block exposes source status, confidence, and teacher action requirement.
 - Missing or mismatched evidence blocks require teacher confirmation and block formal output.
-- The preview page is a temporary local renderer for review, not the final R36 integration.
+- The preview page is a temporary local renderer for review, not the final R36 integration. R1 must target the existing main shell and a copied R36 preview surface.
 
 ## Recommended Integration Shape
 
@@ -115,6 +117,7 @@ For `1013Q_R1_PROCESS_STREAM_RENDERER_PREP_ROOM_PREVIEW_POLISH`:
 6. Keep process blocks separate from final draft body.
 7. Do not connect provider/model/database/Feishu/PPT export/formal apply.
 8. Do not reintroduce R22/O_R2/M_R5 baselines.
+9. Do not continue from the standalone 1013Q_R0 HTML preview page.
 
 ## Fit With 飞象老师 Analysis
 
