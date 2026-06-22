@@ -1,0 +1,51 @@
+{
+  "stage_id": "1013Q_R0_PROCESS_STREAM_RENDERER_CONTRACT",
+  "stage_code": "1013Q_R0",
+  "package_slug": "process_stream_renderer_1013Q_R0",
+  "final_status": "PASS_PROCESS_STREAM_RENDERER_CONTRACT",
+  "created_at": "2026-06-22",
+  "preview_only": true,
+  "fixture_only": true,
+  "contract_only": true,
+  "visible_agent_name": "小教",
+  "zip_path": "docs/audit_packages/process_stream_renderer_1013Q_R0.zip",
+  "zip_entry_count": 12,
+  "zip_entries": [
+    "docs/foundation/process_stream_renderer_contract_1013Q_R0.md",
+    "docs/foundation/process_stream_renderer_contract_1013Q_R0.json",
+    "docs/foundation/process_stream_block_schema_1013Q_R0.json",
+    "docs/foundation/process_stream_renderer_boundary_1013Q_R0.md",
+    "fixtures/process_stream/lesson_design_normal_1013Q_R0.json",
+    "fixtures/process_stream/material_missing_1013Q_R0.json",
+    "fixtures/process_stream/source_mismatch_warning_1013Q_R0.json",
+    "fixtures/process_stream/courseware_seed_preview_1013Q_R0.json",
+    "frontend/workbench/process_stream_renderer_preview_1013Q_R0.html",
+    "scripts/validate_process_stream_renderer_1013Q_R0.py",
+    "docs/audit/process_stream_renderer_1013Q_R0_report.md",
+    "docs/audit_packages/process_stream_renderer_1013Q_R0_manifest.json"
+  ],
+  "not_in_scope": [
+    "provider_model_call",
+    "database_write",
+    "feishu_writeback",
+    "student_endpoint",
+    "classroom_data",
+    "ppt_export",
+    "community_publish",
+    "formal_apply",
+    "R36_formal_chain_mutation",
+    "external_scrape",
+    "Flying_Elephant_code_or_api_or_asset_replication"
+  ],
+  "validation_commands": [
+    "python scripts/validate_process_stream_renderer_1013Q_R0.py",
+    "python scripts/validate_process_stream_renderer_1013Q_R0.py --root D:\\Documents\\SmartEdu\\xiaobei-core"
+  ],
+  "validation_expected_tail": [
+    "VALIDATION_PASS: 1013Q_R0_PROCESS_STREAM_RENDERER_CONTRACT",
+    "FINAL_STATUS=PASS_PROCESS_STREAM_RENDERER_CONTRACT",
+    "NEXT_STAGE=1013Q_R1_PROCESS_STREAM_RENDERER_PREP_ROOM_PREVIEW_POLISH"
+  ],
+  "next_stage": "1013Q_R1_PROCESS_STREAM_RENDERER_PREP_ROOM_PREVIEW_POLISH",
+  "next_stage_requires_explicit_decision": true
+}
