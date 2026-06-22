@@ -12,6 +12,8 @@ It is intended for GPT or human review before the next stage:
 
 `1013Q_R1_PROCESS_STREAM_RENDERER_PREP_ROOM_PREVIEW_POLISH`
 
+Important correction: the R0 standalone HTML preview is only a fixture viewer. The product implementation must connect to the existing main shell and copied R36 preview baseline, not continue as a separate page.
+
 ## Review Questions
 
 1. Does 1013Q correctly stay separate from 1013P art-reference-case work?
@@ -19,11 +21,13 @@ It is intended for GPT or human review before the next stage:
 3. Does the missing-material and source-mismatch handling block formal final output until teacher confirmation?
 4. Does the render-base scan correctly identify 1013L_R0 and 1013L_R36 as the proper local foundation?
 5. Is the recommended next step correct: copy R36 for preview polish, then mount process stream blocks into that copied preview rather than creating a disconnected new page?
+6. Does the R1 plan avoid using `frontend/workbench/process_stream_renderer_preview_1013Q_R0.html` as a product baseline?
 
 ## Included Files
 
 - `docs/audit/process_stream_renderer_1013Q_R0_report.md`
 - `docs/audit/process_stream_renderer_render_base_scan_1013Q_R0A_report.md`
+- `docs/foundation/process_stream_renderer_main_shell_integration_1013Q_R1_plan.md`
 - `docs/audit/process_stream_renderer_1013Q_R0A_github_review_readme.md`
 - `docs/audit_packages/process_stream_renderer_1013Q_R0_manifest.json`
 - `docs/audit_packages/process_stream_renderer_1013Q_R0.zip`
