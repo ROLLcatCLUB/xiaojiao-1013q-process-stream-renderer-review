@@ -1,0 +1,41 @@
+{
+  "stage_id": "1013Q_R0A_RENDER_BASE_SCAN_AND_GITHUB_REVIEW_UPLOAD",
+  "final_status": "PASS_GITHUB_REVIEW_PACKAGE_UPLOADED",
+  "repository": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review",
+  "visibility": "PUBLIC",
+  "commit": "765496b18c602815921b7e7078b588290aa88679",
+  "raw_base": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679",
+  "uploaded_files": {
+    "readme": {
+      "path": "README.md",
+      "url": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/blob/765496b18c602815921b7e7078b588290aa88679/README.md",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679/README.md"
+    },
+    "previous_report": {
+      "path": "docs/audit/process_stream_renderer_1013Q_R0_report.md",
+      "url": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/blob/765496b18c602815921b7e7078b588290aa88679/docs/audit/process_stream_renderer_1013Q_R0_report.md",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679/docs/audit/process_stream_renderer_1013Q_R0_report.md"
+    },
+    "render_base_scan_report": {
+      "path": "docs/audit/process_stream_renderer_render_base_scan_1013Q_R0A_report.md",
+      "url": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/blob/765496b18c602815921b7e7078b588290aa88679/docs/audit/process_stream_renderer_render_base_scan_1013Q_R0A_report.md",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679/docs/audit/process_stream_renderer_render_base_scan_1013Q_R0A_report.md"
+    },
+    "manifest": {
+      "path": "docs/audit_packages/process_stream_renderer_1013Q_R0_manifest.json",
+      "url": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/blob/765496b18c602815921b7e7078b588290aa88679/docs/audit_packages/process_stream_renderer_1013Q_R0_manifest.json",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679/docs/audit_packages/process_stream_renderer_1013Q_R0_manifest.json"
+    },
+    "zip": {
+      "path": "docs/audit_packages/process_stream_renderer_1013Q_R0.zip",
+      "url": "https://github.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/blob/765496b18c602815921b7e7078b588290aa88679/docs/audit_packages/process_stream_renderer_1013Q_R0.zip",
+      "raw_url": "https://raw.githubusercontent.com/ROLLcatCLUB/xiaojiao-1013q-process-stream-renderer-review/765496b18c602815921b7e7078b588290aa88679/docs/audit_packages/process_stream_renderer_1013Q_R0.zip"
+    }
+  },
+  "review_prompt_summary": [
+    "Review whether 1013Q stays separate from 1013P.",
+    "Review whether process stream blocks make teacher-visible reasoning and source status explicit before final output.",
+    "Review whether the render-base scan correctly routes 1013Q_R1 to a copied R36 preview line instead of a disconnected page."
+  ],
+  "next_stage": "1013Q_R1_PROCESS_STREAM_RENDERER_PREP_ROOM_PREVIEW_POLISH"
+}
